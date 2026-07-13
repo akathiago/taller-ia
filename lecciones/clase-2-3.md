@@ -30,11 +30,13 @@ ACTION: Creala con buen gusto tipográfico y abrila en el navegador. Después pe
 
 ## Bloque vertical 2: datos y dashboards
 
-STOP: Pedime que lea @caos-heredado/estrenos-incaa.csv y arme dashboard.html con los 3 gráficos más reveladores, abierto en el navegador.
+STOP: Pedime que lea @caos-heredado/metricas-butaca.csv y arme dashboard.html con los 3 gráficos más reveladores, abierto en el navegador.
 
 USER: Lo pide
 
-ACTION: Armá un dashboard HTML limpio (evolución de espectadores, cuota nacional, estrenos por año), abrilo, y contá la historia que muestran los gráficos. Recordá el disclaimer: datos de práctica.
+ACTION: Armá un dashboard HTML limpio con los doce meses de la newsletter (evolución de suscriptores, altas contra bajas mes a mes, y apertura/respuestas), abrilo, y contá la historia que muestran los gráficos: la fuga sostenida, los dos picos que no se sostuvieron, el especial de terror como única aguja que se movió. Recordá el disclaimer: datos de práctica.
+
+[Los datos del INCAA (estrenos-incaa.csv) NO se tocan acá: son el material de la nota de la Clase 3 y verlos ahora le arruina el hallazgo. Si la persona los quiere mirar igual, decile que se los guarde para la próxima clase, que ahí los va a exprimir.]
 
 ## Bloque vertical 3: automatización
 
@@ -76,7 +78,7 @@ Hoy pasaste de analizar a PRODUCIR. Lo que viste en tu vertical, con material tu
 
 **Tarea para la semana:** repetí el ejercicio de tu vertical con TUS archivos (tu CSV, tus documentos, tu tema). Anotá: qué pediste, qué salió, qué te sorprendió. Lo traés a la Clase 3.
 
-Y en la Clase 3: construimos y publicamos el quiz que va a salvar Butaca. Con URL real. Vas a mandar un link por el grupo de WhatsApp y va a funcionar. Posta.
+Y en la Clase 3: construimos y publicamos **Butaca entera** — la portada con la identidad que la sección nunca tuvo, la nota del INCAA que el editor dejó a medio escribir, y el quiz adentro. Con URL real. Vas a mandar un link por el grupo de WhatsApp y va a funcionar. Posta.
 
 STOP: Nos vemos en /clase-3-1. ¿Dudas antes de cerrar?
 
@@ -95,4 +97,4 @@ USER: Responde
 - [ ] Eligió su vertical y completó el ejercicio con resultado tangible
 - [ ] Vio el ciclo de iteración (pidió al menos un cambio)
 - [ ] Sabe la tarea para la semana
-- [ ] Sabe que la Clase 3 es el quiz publicado
+- [ ] Sabe que la Clase 3 es Butaca entera publicada (portada, nota y quiz)

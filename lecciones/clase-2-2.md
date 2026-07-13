@@ -28,7 +28,7 @@ ACTION: Lanzá 5 agentes en paralelo de verdad:
 
 Después sintetizá los cinco en analisis/diagnostico-completo.md.
 
-**Lo que tiene que salir del Agente 2 (esto es el corazón de la lección):** la newsletter no tiene un problema de alcance, tiene un problema de interés. Entra gente todos los meses, pero desde septiembre se van más de los que entran. El sorteo de enero trajo el pico histórico de altas y en febrero se fueron casi todos: adquisición sin retención. Cambiar el día de envío y acortar la newsletter a la mitad no movieron NADA. Y una sola vez la aguja se fue para arriba de verdad: el especial de terror de octubre, con 38% de apertura y 22 respuestas cuando lo normal era 2. Nunca se repitió.
+**Lo que tiene que salir del Agente 2 (esto es el corazón de la lección):** la newsletter no tiene un problema de alcance, tiene un problema de interés. Desde septiembre, todos los meses se van más suscriptores de los que entran — salvo los dos meses en que se hizo algo distinto (octubre y enero), y en los dos el pico se desinfló enseguida. El sorteo de enero trajo el pico histórico de altas (330) y en febrero se fueron casi todos (232 bajas): adquisición sin retención. Cambiar el día de envío y acortar la newsletter a la mitad no movieron NADA. Y una sola vez la aguja se fue para arriba de verdad: el especial de terror de octubre, con 38% de apertura y 22 respuestas cuando lo normal eran dos o tres. Nunca se repitió.
 
 **Descubrimiento de la síntesis:** las cinco fuentes dicen lo mismo desde ángulos distintos. Lo único que funcionó tuvo tema, voz y algo para responder. Los lectores piden exactamente eso. La dirección lo dice sin saber que lo dice ("Butaca informa, Música convoca"). Y el editor anterior lo tenía anotado.
 

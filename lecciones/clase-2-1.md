@@ -130,4 +130,4 @@ USER: Sí / /clase-2-2
 - [ ] ordenado/ tiene rescate-de-notas, sintesis-lectores e informe-direccion
 - [ ] Apareció "correcta pero olvidable" como diagnóstico
 - [ ] La persona conectó las piezas y nombró el quiz
-- [ ] Sabe que el quiz es el proyecto de la Clase 3
+- [ ] Sabe que el proyecto de la Clase 3 es Butaca entera: portada, nota y quiz
