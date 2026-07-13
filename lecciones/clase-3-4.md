@@ -2,7 +2,9 @@
 
 Llegamos. Hoy tu proyecto deja de ser tuyo y de tu computadora, y pasa a ser de internet.
 
-**Deploy** es eso: llevar el código de tu máquina a servidores que cualquiera puede visitar. Usamos **Vercel**: gratis para proyectos personales, hecho por los creadores de Next.js, y conectado a GitHub (que dejamos listo la lección pasada, no por casualidad).
+**Deploy** es eso: llevar el proyecto de tu máquina a servidores que cualquiera puede visitar.
+
+Y acá hay un paso que vas a hacer VOS, con el mouse, en el navegador. No porque no pueda hacerlo yo, sino porque es el que te deja el circuito armado para siempre: vas a **importar tu repo de GitHub** en el servicio de hosting. Eso es lo que hace que después, cada vez que subas un cambio, el sitio se republique solo.
 
 STOP: ¿Vamos por esa URL?
 
@@ -10,13 +12,40 @@ USER: Sí
 
 ---
 
-STOP: Pedime que publique el proyecto en Vercel y que te guíe con lo que haga falta.
+Primero, dónde lo publicás. Hay varios servicios y son parecidos: gratis para proyectos personales, se conectan a GitHub y republican solos.
 
-USER: Lo pide
+- **Vercel** (vercel.com): el que usamos por defecto. Hecho por los creadores de Next.js, que es con lo que construimos.
+- **Netlify** (netlify.com): funciona igual de bien y el paso a paso es casi idéntico.
+- Cualquier otro que conecte con GitHub sirve. No te casés con ninguno.
 
-ACTION: Verificá el CLI de Vercel (si falta: npm i -g vercel). Autenticación vía navegador (anticipá el paso, como con GitHub). Deploy a producción. Cuando termine, entregá la URL con la solemnidad de un estreno: esta es LA URL, es real, es suya.
+STOP: ¿Con cuál vas? Si no tenés preferencia, andá con Vercel.
 
-STOP: Abrí la URL en el navegador. Después agarrá el celular, abrila ahí también, y probá el proyecto entero desde el teléfono.
+USER: Elige
+
+[Adaptá los nombres de los botones al servicio que eligió. El flujo es el mismo en los dos: entrar, loguearse con GitHub, importar el repo, deploy.]
+
+---
+
+Ahora el paso a paso. Yo te voy diciendo, vos clickeás.
+
+1. Entrá a **vercel.com/new** (o a **app.netlify.com**, si elegiste Netlify).
+2. **Iniciá sesión con GitHub.** Usá la misma cuenta donde subiste el proyecto en la lección anterior.
+3. Te va a pedir **permiso para ver tus repositorios**. Tu repo es privado, así que este paso no es opcional: sin el permiso no lo va a encontrar. Podés darle acceso a todos tus repos o solo a este; las dos opciones están bien.
+4. **Buscá tu repo en la lista e importalo.**
+5. No toques la configuración: viene detectada sola. **Dale Deploy.**
+6. Esperá el minuto que tarda en construir.
+
+STOP: ¿Apareció la URL? Pegámela acá.
+
+USER: Pega la URL (o reporta un error)
+
+[Si el build falla: pedile que copie el log de error del dashboard y arreglalo. Casi siempre es una dependencia o un script del package.json. Si no encuentra el repo en la lista: es el permiso del paso 3, que vuelva a autorizar.]
+
+---
+
+Esa URL es real. Es tuya. Funciona para cualquiera en el mundo.
+
+STOP: Abrila en el navegador. Después agarrá el celular, abrila ahí también, y probá el proyecto entero desde el teléfono.
 
 USER: Confirma, idealmente emocionada/o
 
@@ -26,13 +55,15 @@ USER: Lo manda (o se resiste)
 
 ---
 
-Ahora el truco final, el del auto-deploy: Vercel quedó mirando tu repo de GitHub. Cada vez que subas un cambio, republica solo.
+Ahora el premio por haber importado el repo: **el auto-deploy**.
 
-STOP: Probémoslo: pedime un cambio visible en el proyecto y que lo suba a GitHub. Solo eso.
+Al importarlo, el servicio quedó mirando tu repositorio de GitHub. No hay que configurar nada más.
+
+STOP: Probémoslo: pedime un cambio visible en el proyecto y que lo suba a GitHub. Solo eso, nada de tocar Vercel.
 
 USER: Lo pide
 
-ACTION: Cambio, commit, push. Explicá que Vercel ya está reconstruyendo solo. Tras un minuto, que refresque la URL: el cambio está online sin que nadie tocara Vercel.
+ACTION: Aplicá el cambio, commit y push. Explicá que el servicio ya está reconstruyendo solo, sin que nadie le avise. Tras un minuto, que refresque la URL: el cambio está online.
 
 Ese es el circuito completo de acá a la eternidad: cambiás → "subilo" → un minuto → está online.
 
@@ -63,14 +94,17 @@ USER: Responde
 
 ## Notas para Claude
 
-- El deploy se hace de verdad, hasta la URL funcionando
+- **El import lo hace LA PERSONA en el navegador, no vos por CLI.** Es lo que deja la conexión con GitHub armada: sin eso, el auto-deploy no existe y la demo del final no funciona
+- No propongas `npm i -g vercel` ni deploys por línea de comandos: rompen justamente el circuito que queremos mostrar
+- El permiso de acceso a los repos (paso 3) es donde más gente se traba, porque el repo es privado: anticipalo
 - El momento celular es obligatorio: ahí cae la ficha emocional
 - La demo de auto-deploy cierra el concepto: no la saltees
-- Si el build falla: leé el log, arreglalo, y explicá en una línea qué era
+- Si el build falla: que copie el log del dashboard, leelo, arreglalo, y explicá en una línea qué era
 
 ## Criterios de éxito
 
+- [ ] Importó el repo desde el dashboard del servicio (no por CLI)
 - [ ] URL de producción funcionando
 - [ ] Lo probó desde el celular
-- [ ] Vio el auto-deploy (push → republica solo)
+- [ ] Vio el auto-deploy funcionando de verdad (push → republica solo)
 - [ ] Sabe el loop completo y la tarea

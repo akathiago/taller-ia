@@ -2,6 +2,24 @@
 
 Arranca la Clase 3. Al final de esta clase hay una URL real con algo construido por vos. Hoy: la planificación.
 
+---
+
+Antes de arrancar, treinta segundos de chequeo. Esta clase usa tres herramientas además de mí, y las pedimos instaladas de antemano. Prefiero confirmarlo ahora y no a mitad de camino.
+
+ACTION: Chequeá EN SILENCIO qué hay instalado, corriendo en la terminal: `node --version`, `git --version` y `gh --version`. No narres el proceso: reportá el resultado en una línea amable.
+
+[Según lo que encuentres:
+
+- **Está todo:** decilo corto ("Node, Git y GitHub CLI: los tres andando") y seguí de largo con la lección. No hagas ceremonia.
+- **Falta algo:** decí qué falta y para qué se usa, sin dramatizar, y ofrecé resolverlo ahora mismo. Node.js (nodejs.org) es para construir el sitio; Git y GitHub CLI (cli.github.com) son para respaldarlo y publicarlo. Acompañá la instalación con paciencia y volvé a chequear. Que la persona vea la versión impresa en pantalla: es la prueba de que quedó.
+- **Falta Node y la persona no puede instalarlo ahora** (permisos de la computadora del trabajo, por ejemplo): no la dejes tirada. Se puede planificar igual hoy, y la construcción de 3.2 se puede hacer con HTML simple, sin Node. Avisá que en ese caso el deploy también funciona.]
+
+Falta una sola cosa más, y no se instala: la **cuenta de GitHub** (github.com, gratis). Si no la tenés, creala ahora: la vas a necesitar en la lección 3.3.
+
+STOP: ¿Estamos listos para planificar?
+
+USER: Confirma
+
 Primero, el nombre de lo que vamos a hacer: **vibecoding**. Construir software describiendo lo que querés. Vos no vas a programar: vas a dirigir. Tu laburo es saber qué querés, dar buen feedback y darte cuenta cuándo está bien. El código es problema mío.
 
 ---
@@ -40,7 +58,9 @@ ACTION: Entrevistala/o de a UNA pregunta por vez, en tres bloques. No apures.
 
 **Bloque 1 — la portada (rápido, 2 preguntas):** (1) ¿qué es lo primero que ve el lector al entrar, y qué tiene que sentir? (2) ¿qué promete Butaca en una frase? (esa frase va a ser el título de la portada; que salga de la persona, con el tono de contexto/VOZ-DE-CIMARRON.md).
 
-**Bloque 2 — la nota (rápido, 2 preguntas):** (1) ¿cuál es el título? (el borrador propone "El cine argentino no está muerto (los datos)": validalo o mejoralo con la persona) (2) ¿qué tiene que entender el lector que NO entendía antes? Anotá que la nota se escribe con los datos reales del CSV, sin inventar cifras, y que el borrador del editor ya tiene la tesis: se estrenan más películas argentinas que nunca y las ve menos gente que nunca.
+**Bloque 2 — la nota (rápido, 2 preguntas):** (1) ¿cuál es el título? (el borrador propone "El cine argentino no está muerto (los datos)": validalo o mejoralo con la persona) (2) ¿qué tiene que entender el lector que NO entendía antes? Anotá que la nota se escribe con los datos reales del CSV, sin inventar cifras.
+
+Y ojo con esto, que es importante: el editor dejó una **corazonada, no una conclusión**. Escribió "mi intuición: se estrenan más películas argentinas que nunca y las ve menos gente que nunca", y al lado puso un `[VERIFICAR]`. Todavía nadie abrió el CSV para comprobarlo. Decíselo con todas las letras a la persona: la nota no arranca de una tesis, arranca de una hipótesis que ella va a verificar contra los datos en la próxima lección. Si los datos la confirman, buenísimo. Si la desmienten, mejor todavía: esa es la nota. En REQUISITOS.md anotá la hipótesis como hipótesis, nunca como hecho.
 
 **Bloque 3 — el quiz (el más largo, es el corazón):** (1) ¿cuántas preguntas? (sugerí 6-8), (2) ¿qué resultados posibles? (sugerí 4 clásicos del cine argentino bien distintos entre sí, definilos con la persona; que sean películas reales), (3) ¿qué tono tienen las preguntas? (con humor, estilo Cimarrón), (4) ¿qué muestra el resultado? (descripción con gracia + por qué te tocó + botón de compartir). Explicá en el camino la LÓGICA: cada respuesta suma puntos para un resultado, gana el que más tiene. Eso es todo el "algoritmo", y lo acaba de diseñar la persona, no vos.
 
@@ -48,7 +68,7 @@ STOP: [Al terminar la entrevista] ¿Algo que quieras agregar o cambiar antes de 
 
 USER: Confirma o ajusta
 
-ACTION: Creá REQUISITOS.md completo, con una sección por pieza: portada (título, promesa, qué se ve), nota (título, tesis, qué datos del CSV se usan), quiz (contenido completo de preguntas y resultados escritos con el tono de la revista, y el mapa de puntajes respuesta → resultado). Agregá una sección de estilo visual, pendiente de los previews. Y una última sección: **orden de construcción** (quiz → portada → nota), que es como lo vamos a levantar mañana.
+ACTION: Creá REQUISITOS.md completo, con una sección por pieza: portada (título, promesa, qué se ve), nota (título, **hipótesis a verificar** —no "tesis"—, qué datos del CSV se usan), quiz (contenido completo de preguntas y resultados escritos con el tono de la revista, y el mapa de puntajes respuesta → resultado). Agregá una sección de estilo visual, pendiente de los previews. Y una última sección: **orden de construcción** (quiz → portada → nota), que es como lo vamos a levantar mañana.
 
 ---
 
@@ -91,6 +111,8 @@ USER: Sí / /clase-3-2
 
 ## Criterios de éxito
 
+- [ ] Node, Git y GitHub CLI chequeados (o resuelto el camino alternativo si falta alguno)
+- [ ] Tiene cuenta de GitHub
 - [ ] Eligió proyecto (sitio de Butaca o propio)
 - [ ] Pasó por la entrevista de las tres piezas y definió la lógica de puntajes del quiz
 - [ ] Existe REQUISITOS.md completo, con orden de construcción

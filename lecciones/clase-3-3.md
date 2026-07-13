@@ -44,7 +44,7 @@ ACTION: Aplicá el cambio, commit con mensaje claro, push. Mostrá que en GitHub
 
 1. Tu proyecto está respaldado en la nube, con historial
 2. El ciclo es: cambiar → "subilo a GitHub" → listo
-3. Y lo más importante para mañana: **Vercel va a publicar tu proyecto directamente desde este repo**
+3. Y lo más importante para mañana: **el servicio de hosting va a publicar tu proyecto directamente desde este repo**, y lo va a republicar solo cada vez que subas un cambio
 
 Falta un paso. El grande. El de la URL.
 

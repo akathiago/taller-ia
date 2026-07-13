@@ -90,7 +90,7 @@
           "id": "3.4",
           "name": "Deploy, tu URL real",
           "path": "lecciones/clase-3-4.md",
-          "description": "Publicar en Vercel con una URL para compartir"
+          "description": "Importar el repo en Vercel o Netlify, URL real para compartir y auto-deploy en cada push"
         }
       ]
     },

@@ -69,7 +69,17 @@ STOP: Pedime que termine la nota usando el borrador (@caos-heredado/notas-a-medi
 
 USER: Lo pide
 
-ACTION: Escribí la nota de verdad: la tesis del borrador (se estrenan más películas argentinas que nunca y las ve menos gente que nunca) verificada contra el CSV, con las cifras reales del archivo y CERO cifras inventadas. Si los datos contradicen la intuición del editor, decilo: eso también es la nota. Sumá una visualización simple de la caída de la cuota de pantalla si el tiempo da. Publicala como sección del sitio, enlazada desde la portada.
+ACTION: Escribí la nota de verdad, verificando la corazonada del editor contra el CSV, con las cifras reales del archivo y CERO cifras inventadas.
+
+**Y acá pasa algo que la persona tiene que ver: los datos desmienten al editor a medias, y la historia real es mejor que su intuición.** Abrí el CSV y mirá antes de escribir:
+
+- "Se estrenan más películas argentinas que nunca": **NO**. El pico fue 2019 (241 estrenos nacionales). En 2025 hay 176, menos que en 2015 (182). Vienen cayendo.
+- "Las ve menos gente que nunca": **casi**. Los espectadores de cine argentino se derrumbaron (de 7,4 millones en 2015 a 2,1 en 2025), pero 2020 y 2024 fueron peores todavía.
+- Lo que sí es contundente: **la cuota de pantalla nacional se partió al medio**, de 14,8% a 6,5%.
+
+O sea: no es "hay más cine argentino que nadie ve". Es que hay **menos** cine argentino **y** menos gente que lo ve. Contale esto a la persona como lo que es: el editor tenía una intuición, los datos la corrigieron, y la nota que sale es más fuerte que la que él imaginaba. Ese es el momento pedagógico de la lección: verificar antes de publicar.
+
+Sumá una visualización simple de la caída de la cuota de pantalla si el tiempo da. Publicala como sección del sitio, enlazada desde la portada.
 
 STOP: Leela completa. Esa nota estuvo un año a medio escribir en una carpeta, y la terminaste vos con datos. ¿Cómo quedó?
 
@@ -104,6 +114,7 @@ USER: Sí / /clase-3-3
 - El servidor queda corriendo; explicá que Ctrl+C lo apaga
 - Los tres cambios + la captura marcada son el corazón pedagógico: no los saltees
 - En la nota: ninguna cifra que no esté en el CSV. Si falta un dato, se dice que falta
+- **No repitas la corazonada del editor como si fuera un hecho.** Los datos la desmienten a medias (no se estrenan más películas argentinas que nunca: el pico fue 2019). Que la persona vea la verificación pasar: es el corazón de la capa 3
 - Ante errores de entorno (Node, puertos), resolvé con calma y en castellano
 
 ## Criterios de éxito
@@ -111,6 +122,7 @@ USER: Sí / /clase-3-3
 - [ ] El quiz corre en localhost y se juega entero
 - [ ] Existe la portada con identidad, y el quiz enlazado desde ahí
 - [ ] La nota está terminada con datos reales del CSV (o quedó explícitamente pendiente, con el sitio igual publicable)
+- [ ] Vio que los datos corrigieron la corazonada del editor, y la nota dice lo que dicen los datos
 - [ ] Entendió servidor local vs URL real
 - [ ] Iteró al menos 3 cambios + 1 con captura marcada
 - [ ] Sabe qué hacer con los mensajes de error (copiarlos, no interpretarlos)
