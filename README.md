@@ -23,15 +23,23 @@ Sos la nueva persona a cargo de **Butaca**, la sección de cine de la revista di
 
 A lo largo del taller vas a:
 - Analizar el caos que heredaste
-- Descubrir qué está fallando de verdad
+- Descubrir qué está fallando de verdad (los números están ahí, nadie los miró)
 - Encontrar la solución (pista: está enterrada en las notas del editor anterior)
-- Construir y PUBLICAR algo que salve la sección
+- Construir y PUBLICAR **Butaca relanzada**: una portada con voz propia, la nota que quedó a medio escribir, y un quiz que la gente comparte. Con URL de verdad.
 
 ## Estructura de carpetas
 
 ```
 contexto/            → Qué es Cimarrón, la voz de la revista, la newsletter
 caos-heredado/       → El desastre que te dejaron (archivos para analizar)
+  ├─ metricas-butaca.csv        → Los números de la newsletter, 12 meses
+  ├─ estrenos-incaa.csv         → Datos de la industria del cine argentino
+  ├─ comentarios-lectores/      → Cinco meses de comentarios que nadie leyó
+  ├─ newsletters-viejas/        → Las ediciones que se mandaron, con sus números
+  ├─ mails-de-la-direccion/     → Lo que la dirección viene pidiendo hace meses
+  ├─ notas-a-medio-escribir/    → Borradores que quedaron por la mitad
+  ├─ otros-medios/              → Los que sí la están rompiendo
+  └─ notas-del-editor-anterior.md
 plantillas/          → Formatos de la revista (informes, prensa, entrevistas)
 recursos-graficos/   → Imágenes para los ejercicios
 ordenado/            → Acá van los archivos que vas creando
@@ -39,7 +47,7 @@ analisis/            → Salidas de análisis
 revisiones/          → Feedback de tus sub-agentes
 ```
 
-**Ojo con `caos-heredado/estrenos-incaa.csv`:** son datos de práctica, verosímiles pero inventados. No citar en trabajos reales (ver `caos-heredado/LEEME-DATOS.md`).
+**Ojo con los CSV:** son datos de práctica, verosímiles pero inventados. No citar en trabajos reales (ver `caos-heredado/LEEME-DATOS.md`).
 
 ## Referencia
 

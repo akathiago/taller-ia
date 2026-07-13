@@ -28,13 +28,13 @@ USER: Sí
 
 ## Escenario 2: una carpeta → sintetizar
 
-Cuatro meses de comentarios de lectores que NADIE leyó. Hasta hoy.
+Cinco meses de comentarios de lectores que NADIE leyó. Hasta hoy.
 
 STOP: Pedime que mire @caos-heredado/comentarios-lectores/ entera y sintetice los temas que se repiten en ordenado/sintesis-lectores.md.
 
 USER: Lo pide
 
-ACTION: Leé los cuatro meses, sintetizá los patrones y creá ordenado/sintesis-lectores.md. Los temas que TIENEN que emerger: (1) "correcta pero olvidable" aparece una y otra vez, (2) piden jugar/compartir/participar, (3) piden orientación ("qué veo el finde") más que información de industria, (4) los datos del INCAA interesan pero "contados para humanos", (5) piden comunidad como la sección de música.
+ACTION: Leé los cinco meses, sintetizá los patrones y creá ordenado/sintesis-lectores.md. Los temas que TIENEN que emerger: (1) "correcta pero olvidable" aparece una y otra vez, (2) piden jugar/compartir/participar, algo que puedan responder, (3) piden orientación ("qué veo el finde") más que información de industria, (4) los datos del INCAA interesan pero "contados para humanos", (5) piden comunidad como la sección de música, (6) el especial de terror lo siguen recordando un año después.
 
 **Descubrimiento:** el diagnóstico está acá: Butaca informa correcto pero no genera NADA: ni juego, ni pertenencia, ni identidad. La frase "correcta pero olvidable" es la lápida.
 
@@ -52,7 +52,9 @@ STOP: Pedime que arme el informe para la dirección usando @ordenado/sintesis-le
 
 USER: Lo pide
 
-ACTION: Creá ordenado/informe-direccion.md siguiendo la plantilla al pie de la letra: título-conclusión, tres líneas, datos con contexto (usá también contexto/LA-NEWSLETTER.md), diagnóstico y propuesta. En la propuesta insinuá "formatos interactivos y compartibles" sin comprometer todavía el quiz.
+ACTION: Creá ordenado/informe-direccion.md siguiendo la plantilla al pie de la letra: título-conclusión, tres líneas, datos con contexto (usá contexto/LA-NEWSLETTER.md), diagnóstico y propuesta. En la propuesta insinuá "formatos interactivos y compartibles" sin comprometer todavía el quiz.
+
+[Ojo con los números: la dirección viene pidiendo la planilla de la newsletter hace meses y todavía no la miramos. Decílo con todas las letras: el informe va con lo cualitativo, y los números duros salen en la próxima lección, cuando abramos @caos-heredado/metricas-butaca.csv. Que quede la deuda picando.]
 
 Fijate el truco: un archivo puso el contenido, otro puso el formato. Tus plantillas de siempre (minutas, informes, lo que sea) pueden trabajar así.
 
@@ -66,11 +68,11 @@ USER: Responde
 
 También veo imágenes. En recursos-graficos/ está la placa con la que se promocionaba la newsletter.
 
-STOP: Abrí recursos-graficos/placa-newsletter.svg en el navegador (doble clic), sacale una captura, pegala acá con Ctrl+V (¡también en Mac es Ctrl+V!) y pedime que la analice sin piedad.
+STOP: Buscá recursos-graficos/placa-newsletter.png en tu editor, copiá la imagen, pegala acá con Ctrl+V (¡también en Mac es Ctrl+V, no Cmd+V!) y pedime que la analice sin piedad.
 
 USER: Pega la imagen
 
-[Si no puede con la captura: que me pida leer el archivo directamente, el análisis sale igual.]
+[Si no le sale copiar y pegar: que me pase la ruta del archivo y la leo igual. El análisis sale idéntico.]
 
 ACTION: Destrozala con cariño: genérica, dice "newsletter de cine" sin nombre, sin identidad, podría ser de cualquier medio, emojis de relleno, "suscribite ya" sin dar un solo motivo. Conectalo con el diagnóstico: hasta el marketing de Butaca es correcto y olvidable.
 
@@ -102,7 +104,9 @@ STOP: ¿Ves a dónde va esto? Decímelo vos.
 
 USER: Conecta: hay que hacer el test/quiz
 
-¡Exacto! "¿Qué clásico del cine argentino sos?". Ese es tu proyecto de la Clase 3. Y lo vas a PUBLICAR, con URL de verdad.
+¡Exacto! "¿Qué clásico del cine argentino sos?".
+
+Y va a vivir en algún lado: en la Clase 3 construís **Butaca entera** — la portada con la identidad que la sección nunca tuvo, la nota del INCAA que el editor dejó a medio escribir, y el quiz adentro. Informar, sí, pero además tener voz y hacer participar. Las tres cosas. Y lo vas a PUBLICAR, con URL de verdad.
 
 ## Cierre
 

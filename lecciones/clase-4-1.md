@@ -44,7 +44,11 @@ ACTION: Creá el archivo en .claude/agents/ con nombre en minúsculas-con-guione
 
 ---
 
-Segunda pieza, rapidita: las **skills**. Si el sub-agente es QUIÉN revisa, la skill es CÓMO se hace una tarea: instrucciones empaquetadas con tus pasos y criterios, que se invocan como comando. Viven en `.claude/skills/`. En la próxima lección armamos una de verdad junto con los comandos de automatización, así que guardá el concepto.
+Segunda pieza, rapidita: las **skills**. Si el sub-agente es QUIÉN revisa, la skill es CÓMO se hace una tarea: tus pasos y tus criterios, empaquetados en un archivo, listos para ejecutar. Viven en `.claude/skills/` y son la forma de convertir "esto lo hago siempre igual" en algo que se hace solo.
+
+Y tienen una gracia que los sub-agentes no tienen: **se disparan solas**. No hace falta que te acuerdes de ningún nombre; si la describís bien, yo me doy cuenta de cuándo usarla.
+
+En la próxima lección armás una de verdad, con tu tarea más odiada adentro.
 
 ## Cierre
 
@@ -69,4 +73,4 @@ USER: Sí / /clase-4-2
 - [ ] Vio dos sub-agentes revisar el mismo documento con miradas distintas
 - [ ] Los archivos de revisiones/ existen
 - [ ] Creó un sub-agente propio para su trabajo
-- [ ] Sabe qué es una skill (concepto) y que se profundiza en 4.2
+- [ ] Sabe qué es una skill (el CÓMO de una tarea) y que en 4.2 arma una

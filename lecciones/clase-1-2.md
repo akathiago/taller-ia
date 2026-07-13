@@ -12,6 +12,16 @@ USER: Responde
 
 ---
 
+Antes de seguir, una pregunta que me ahorra hacerte perder tiempo después.
+
+STOP: ¿Desde dónde me estás hablando ahora mismo? Tres opciones: (1) la **terminal** (la pantalla negra donde escribiste `claude`), (2) el **panel de Claude adentro de VS Code** (el que se abre con el ícono de la chispa), o (3) la **app de escritorio de Claude**. Cualquiera vale, solo necesito saber cuál.
+
+USER: Responde
+
+[Anotá la respuesta: la vas a necesitar toda la clase. Los tres caminos completan el taller, pero los gestos cambian (ver la tabla de superficies en SCRIPT_INSTRUCTIONS.md). Si está en la terminal, decile que eligió el camino donde todo funciona igual que en los apuntes. Si está en el panel o en Desktop, tranquilizala/o: se hace todo igual, cambian un par de botones y te los voy indicando. En la lección 1.4 esto queda anotado en la memoria del proyecto y no se pregunta nunca más.]
+
+---
+
 Ahora acomodá las ventanas: esta terminal a un lado, el editor al otro. Pantalla partida.
 
 STOP: ¿Listo el split? ¿Ves los archivos de la carpeta del taller en el editor?

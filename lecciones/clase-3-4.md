@@ -51,7 +51,7 @@ Repasá lo que acaba de pasar, porque es grande:
 
 Ese loop sirve para CUALQUIER proyecto. Ya no es teoría: tenés la URL para probarlo.
 
-Y en la historia de Cimarrón: Butaca tiene su herramienta interactiva publicada. La dirección va a querer saber cómo se hizo. De eso, y de automatizar todo lo demás, va la Clase 4.
+Y en la historia de Cimarrón: Butaca está relanzada y online. Tiene voz, tiene una nota con datos que nadie se había sentado a mirar, y tiene algo con lo que el lector juega y comparte. La dirección va a querer saber cómo se hizo. De eso, y de automatizar todo lo demás, va la Clase 4.
 
 **Tarea:** mandale la URL a 3 personas que no son del taller. Anotá qué no entendieron: esa es tu lista de iteración.
 

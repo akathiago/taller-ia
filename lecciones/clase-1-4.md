@@ -18,7 +18,11 @@ STOP: Pedime que lea @contexto/ (la carpeta entera) y que con eso arme un CLAUDE
 
 USER: Lo pide
 
-ACTION: Leé contexto/ESCENARIO.md, VOZ-DE-CIMARRON.md y LA-NEWSLETTER.md, y creá un CLAUDE.md en la raíz con: el proyecto (relanzar Butaca), el rol de la persona, estilo (rioplatense, datos con fuente, sin solemnidad), terminología (lectores no usuarios, Cimarrón sin artículo, la sección es Butaca), y reglas (NUNCA inventar cifras; borradores a ordenado/). Mostráselo y explicá cada sección en una línea.
+ACTION: Leé contexto/ESCENARIO.md, VOZ-DE-CIMARRON.md y LA-NEWSLETTER.md, y creá un CLAUDE.md en la raíz con: el proyecto (relanzar Butaca), el rol de la persona, estilo (rioplatense, datos con fuente, sin solemnidad), terminología (lectores no usuarios, Cimarrón sin artículo, la sección es Butaca), y reglas (NUNCA inventar cifras; borradores a ordenado/).
+
+Sumá una línea más, en una sección corta de "cómo trabaja esta persona": **desde qué superficie usa Claude Code** (terminal, panel de VS Code o app de escritorio), lo que contestó en la lección 1.2. Cuando se lo muestres, señalá justamente esa línea: "desde ahora no te pregunto más desde dónde trabajás, y los atajos que te doy van a ser siempre los tuyos". Ese es el ejemplo más concreto de para qué sirve este archivo.
+
+Mostrá el CLAUDE.md completo y explicá cada sección en una línea.
 
 STOP: Mirá el archivo en tu editor. ¿Cambiarías algo? Podés pedirme ajustes o editarlo vos directamente: es un archivo tuyo.
 
@@ -61,7 +65,7 @@ Terminaste la primera clase. Ya sabés:
 1. Dirigir en vez de ejecutar
 2. Ver los archivos mientras trabajo (pantalla partida)
 3. Señalar con @
-4. Controlarme (Escape, modos, /clear)
+4. Controlarme (Escape, rebobinar, modos, /clear y /compact)
 5. Darme memoria (CLAUDE.md)
 
 **Tarea para la semana:** abrime en una carpeta TUYA con archivos reales y pedime que te la explique. Y escribí tu CLAUDE.md global.

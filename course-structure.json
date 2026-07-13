@@ -72,13 +72,13 @@
           "id": "3.1",
           "name": "Planificar tu proyecto",
           "path": "lecciones/clase-3-1.md",
-          "description": "Entrevista de requisitos y REQUISITOS.md del quiz de Butaca o proyecto propio"
+          "description": "Entrevista de requisitos y REQUISITOS.md del sitio de Butaca (portada, nota y quiz) o proyecto propio"
         },
         {
           "id": "3.2",
           "name": "Construir e iterar",
           "path": "lecciones/clase-3-2.md",
-          "description": "Armar la primera versión y refinarla con capturas"
+          "description": "Construir el sitio por capas (quiz, portada, nota) y refinarlo con capturas"
         },
         {
           "id": "3.3",
@@ -124,6 +124,6 @@
     "company": "Revista digital Cimarrón, sección de cine Butaca",
     "role": "Nueva persona a cargo de la sección tras la salida del editor anterior",
     "goal": "Levantar una sección correcta pero olvidable y una newsletter en caída",
-    "solution": "Quiz ¿Qué clásico del cine argentino sos?"
+    "solution": "Butaca relanzada como sitio: portada con voz propia, la nota del INCAA que quedó a medio escribir, y el quiz ¿Qué clásico del cine argentino sos?"
   }
 }
