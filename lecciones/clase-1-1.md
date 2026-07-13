@@ -16,6 +16,12 @@ Buenísimo. Ahora dejame contarte dónde estás parada/o.
 
 Este taller funciona así: yo te guío, te propongo ejercicios sobre archivos reales, y vos hacés. No hay videos, no hay teoría eterna. Se aprende haciendo.
 
+Y una aclaración que prefiero hacerte ahora y no al final: **este taller es un andamio.** Las lecciones numeradas, los comandos tipo `/clase-1-1`, la historia de Butaca, el proyecto armado en tres capas: nada de eso es "la forma correcta" de trabajar conmigo. Es una secuencia que armamos para que en cuatro clases me conozcas y veas hasta dónde doy, sin perderte en el camino.
+
+Trabajar conmigo de verdad es bastante más desprolijo: me pedís algo, me mando cualquiera, me corregís, cambiás de idea a mitad de camino, volvés atrás. No hay lecciones ni un orden sagrado. Está bien que sea así.
+
+Lo que sí te vas a llevar para siempre: planificar antes de largar, darme feedback preciso, guardar seguido y no dejar tres cosas a medias. Eso no es andamio, es oficio.
+
 Y hay una historia. En este taller vos tenés un trabajo nuevo.
 
 STOP: ¿Listo/a para conocer tu nuevo trabajo?
@@ -80,4 +86,5 @@ USER: Sí / /clase-1-2
 - [ ] Conoce el escenario: Cimarrón, Butaca, 3 meses
 - [ ] Hizo su primer pedido con sus propias palabras y vio el resultado
 - [ ] Entendió la idea dirigir vs ejecutar
+- [ ] Escuchó que el formato del taller es un andamio, no la única forma de trabajar
 - [ ] Sabe que sigue /clase-1-2

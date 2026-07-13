@@ -14,6 +14,12 @@ Lo que vamos a construir es **Butaca**: la sección relanzada, como sitio de ver
 
 Informar, sí. Pero además: tener voz y hacer participar. Eso es la sección entera, no un test suelto.
 
+Ahora, ojo con el orden. Te las conté en el orden en que las va a encontrar el lector: entra por la portada, lee la nota, juega el quiz. **Construirlas las vamos a construir al revés: primero el quiz, después la portada, después la nota.**
+
+¿Por qué? Porque el quiz es el corazón y el que más laburo tiene, y porque así cada pieza queda funcionando y publicable antes de que arranquemos la siguiente. Si en el camino te trabás, ya tenés algo online igual. Lo que hay que evitar es llegar al final con tres cosas a medio hacer y nada para mostrar.
+
+No te lo tenés que acordar: ese orden va a quedar escrito en el contrato que armamos hoy. Y te aviso, para que no lo tomes como ley: construir por capas es una decisión de este taller para que el proyecto se pueda terminar, no una regla mía. En tu próximo proyecto ordenás como se te cante.
+
 STOP: ¿Construimos el sitio de Butaca o tenés un proyecto propio que preferís hacer con el mismo proceso? Los dos caminos valen, y el proceso es idéntico.
 
 USER: Elige

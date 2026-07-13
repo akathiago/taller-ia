@@ -7,7 +7,7 @@ Dos conceptos rápidos antes, para que nada te suene a magia negra:
 1. **Servidor de desarrollo:** un programa que corre en tu compu y te muestra el proyecto como página web mientras lo armamos. Solo lo ves vos.
 2. **localhost:3000:** la dirección de ese ensayo privado. NO es una URL real: no se puede compartir. La URL real llega en la lección 3.4.
 
-Y una regla de método, que es la que hace que hoy termines con algo publicable: **construimos por capas.** Primero el quiz, que es el corazón. Después la portada, que lo envuelve. Después la nota. Cada capa queda funcionando antes de arrancar la siguiente, así en cualquier momento tenés algo que se puede mostrar. Nadie se queda con las tres cosas a medias.
+Y una regla de método, que es la que hace que termines con algo publicable: **construimos por capas.** Primero el quiz, que es el corazón. Después la portada, que lo envuelve. Después la nota. Cada capa queda funcionando antes de arrancar la siguiente, así en cualquier momento tenés algo que se puede mostrar. Nadie se queda con las tres cosas a medias.
 
 STOP: ¿Listo/a? Activá el modo Plan: para una construcción grande, conviene que veas el plan antes de que toque nada. (Gesto según tu superficie: Shift+Tab en la terminal, o el selector de modo si estás en el panel o en Desktop.)
 
@@ -100,7 +100,7 @@ USER: Sí / /clase-3-3
 ## Notas para Claude
 
 - El modo Plan se usa de verdad: plan visible, aprobación, construcción
-- **Las capas son sagradas: el quiz funciona ANTES de empezar la portada, y la portada ANTES de la nota.** Si el tiempo se corta, se corta la última capa y el proyecto igual se publica. Nunca dejes tres piezas a medio hacer
+- **Las capas son sagradas: el quiz funciona ANTES de empezar la portada, y la portada ANTES de la nota.** Si el tiempo se corta o la persona se traba, se corta la última capa y el proyecto igual se publica. Nunca dejes tres piezas a medio hacer
 - El servidor queda corriendo; explicá que Ctrl+C lo apaga
 - Los tres cambios + la captura marcada son el corazón pedagógico: no los saltees
 - En la nota: ninguna cifra que no esté en el CSV. Si falta un dato, se dice que falta
