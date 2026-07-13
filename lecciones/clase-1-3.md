@@ -30,14 +30,14 @@ USER: Lo prueba
 
 Ahora los atajos de control. Estos son los que te hacen sentir al volante:
 
-**Escape**: me frena en seco, en medio de lo que esté haciendo. Si ves que agarré para cualquier lado, frename sin culpa. No me ofendo.
+**La tecla ESC**: me frena en seco, en medio de lo que esté haciendo. Si ves que agarré para cualquier lado, frename sin culpa. No me ofendo.
 
 **Rebobinar**: el viaje en el tiempo. Guardo una foto de tus archivos antes de cada edición, y una más con cada mensaje que me mandás. Al rebobinar elegís un momento del pasado y volvés.
 
 Y volvés **qué**, exactamente: acá hay dos líneas de tiempo que corren en paralelo, la **conversación** (lo que hablamos) y los **archivos** (lo que quedó escrito). Rebobinar es elegir cuál de las dos volvés para atrás: las dos juntas (lo más común, como si nada hubiera pasado), solo los archivos (deshacés lo escrito pero me sigo acordando de todo), o solo la conversación (me olvido de la charla y los archivos quedan como están).
 
 [Dale el gesto de SU superficie, según la tabla de superficies:
-- Terminal: `/rewind`, o Escape dos veces con el campo de texto vacío (si hay texto escrito, el doble Escape borra ESO en vez de abrir el menú).
+- Terminal: `/rewind`, o la tecla ESC dos veces con el campo de texto vacío (si hay texto escrito, el doble ESC borra ESO en vez de abrir el menú).
 - Panel de VS Code: pasar el mouse por encima de un mensaje anterior y clickear el botón de rewind que aparece.
 - Desktop: probar `/rewind` en la lista de comandos; si no aparece, ser honesto y decir que en Desktop la red de seguridad es Git (Clase 3).]
 
@@ -80,8 +80,8 @@ Tu tablero de control:
 
 | Qué | Terminal | Panel de VS Code | Desktop |
 |-----|----------|------------------|---------|
-| Frenar | Escape | Escape | Escape |
-| Rebobinar | Escape ×2 o /rewind | Hover en el mensaje → botón | /rewind (si está); si no, Git |
+| Frenar | ESC | ESC | ESC |
+| Rebobinar | ESC ×2 o /rewind | Hover en el mensaje → botón | /rewind (si está); si no, Git |
 | Cambiar modo | Shift+Tab | Clic en el indicador | Selector de modo |
 | Conversación nueva | /clear | /clear | /clear |
 | Comprimir contexto | /compact | /compact | /compact |
@@ -101,7 +101,7 @@ USER: Sí / /clase-1-4
 
 - Los ejercicios de /usage, /rewind y Shift+Tab son de verdad: esperá a que los haga
 - En el ejercicio de rewind, insistí en que salga con "Never mind": la idea es que vea el menú, no que rebobine la clase
-- Si el doble Escape no le abre el menú, casi seguro tiene texto en el campo: que lo vacíe o que use /rewind
+- Si el doble ESC no le abre el menú, casi seguro tiene texto en el campo: que lo vacíe o que use /rewind
 - Si pregunta por el "modo peligroso" (--dangerously-skip-permissions): existe, hace todo sin preguntar, y no es para la semana uno
 
 ## Criterios de éxito

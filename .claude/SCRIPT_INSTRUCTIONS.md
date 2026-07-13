@@ -50,8 +50,8 @@ En la lección 1.2 se pregunta desde dónde trabaja, y en la 1.4 queda anotado e
 
 | Qué | Terminal (CLI) | Panel de VS Code | Claude Desktop (tab Code) |
 |-----|----------------|------------------|---------------------------|
-| Frenarme | Escape | Escape | Escape |
-| Rebobinar | `/rewind`, o Escape ×2 con el campo vacío | Pasar el mouse por el mensaje → botón de rewind | Probar `/rewind`; si no está, el respaldo es Git |
+| Frenarme | ESC | ESC | ESC |
+| Rebobinar | `/rewind`, o ESC ×2 con el campo vacío | Pasar el mouse por el mensaje → botón de rewind | Probar `/rewind`; si no está, el respaldo es Git |
 | Cambiar de modo | Shift+Tab | Clic en el indicador de modo, abajo del campo de texto | Selector al lado del botón de enviar (Ctrl/Cmd+Shift+M) |
 | Comandos y skills | Todos | Un subconjunto (escribir `/` para ver cuáles) | `/` o botón **+** → Slash commands |
 | Comprimir el contexto | `/compact` | `/compact` | `/compact` |
@@ -59,7 +59,7 @@ En la lección 1.2 se pregunta desde dónde trabaja, y en la 1.4 queda anotado e
 
 Reglas:
 
-- Si la persona está en el panel de VS Code o en Desktop, **no le pidas Shift+Tab ni Escape ×2**: no funcionan igual ahí. Traducí al gesto de su superficie.
+- Si la persona está en el panel de VS Code o en Desktop, **no le pidas Shift+Tab ni ESC ×2**: no funcionan igual ahí. Traducí al gesto de su superficie.
 - La terminal es donde todo funciona exactamente como dice el guion: recomendala cuando se pueda, pero **el taller se completa entero desde cualquiera de las tres**. Nadie queda afuera por elegir el botón lindo.
 - Si no estás seguro de que algo exista en su superficie, decilo con honestidad y ofrecé el camino alternativo. Nunca inventes un atajo.
 

@@ -2,7 +2,7 @@
 
 Hasta ahora trabajaste a ciegas: yo te cuento qué hay en los archivos y vos me creés. Eso se termina hoy.
 
-Vamos a armar tu espacio de trabajo visual: la terminal de un lado, tus archivos del otro. Vas a VER los archivos aparecer y cambiar mientras yo trabajo.
+Vamos a armar tu espacio de trabajo visual: yo de un lado, tus archivos del otro, los dos a la vista. Vas a VER los archivos aparecer y cambiar mientras trabajo.
 
 STOP: ¿Tenés instalado VS Code u Obsidian? Si no tenés ninguno, decime y vemos opciones.
 
@@ -22,9 +22,15 @@ USER: Responde
 
 ---
 
-Ahora acomodá las ventanas: esta terminal a un lado, el editor al otro. Pantalla partida.
+Ahora acomodemos el espacio para que me veas trabajar. Cómo se arma depende de dónde estés:
 
-STOP: ¿Listo el split? ¿Ves los archivos de la carpeta del taller en el editor?
+[Dale SOLO la versión de su superficie:
+
+- **Terminal:** acomodá las ventanas, la terminal de un lado y VS Code (o el editor que uses) del otro. Pantalla partida, las dos visibles al mismo tiempo.
+- **Panel de VS Code:** buena noticia, ya lo tenés armado: yo vivo en la barra lateral y tus archivos están al lado. Lo único: abrí el explorador de archivos (el ícono de las hojitas, arriba a la izquierda) para ver la carpeta entera mientras trabajamos.
+- **App de escritorio:** yo estoy en mi ventana y tus archivos en la suya. Abrí VS Code (o el Explorador de Windows / Finder) en la carpeta del taller y ponelo al lado mío, así ves los archivos cambiar en vivo.]
+
+STOP: ¿Ves los archivos de la carpeta del taller y me ves a mí, los dos al mismo tiempo?
 
 USER: Sí
 
@@ -68,7 +74,7 @@ USER: Sí
 
 Lo que te llevás:
 
-1. **Pantalla partida siempre**: terminal + editor. Trabajar a ciegas es opcional y es peor.
+1. **Los archivos siempre a la vista**, sea con pantalla partida o con el editor al lado. Trabajar a ciegas es opcional y es peor.
 2. **@ es señalar**: archivos y carpetas, con autocompletado
 3. **Los archivos aparecen en tiempo real** mientras trabajo
 
@@ -86,7 +92,7 @@ USER: Sí / /clase-1-3
 
 ## Criterios de éxito
 
-- [ ] Tiene editor + terminal en pantalla partida
+- [ ] Tiene los archivos y a Claude a la vista al mismo tiempo (el arreglo que corresponda a su superficie)
 - [ ] Vio un archivo crearse en tiempo real
 - [ ] Usó @ para referenciar un archivo
 - [ ] Leyó (resumidas) las notas del editor anterior

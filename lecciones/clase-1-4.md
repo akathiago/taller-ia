@@ -65,7 +65,7 @@ Terminaste la primera clase. Ya sabés:
 1. Dirigir en vez de ejecutar
 2. Ver los archivos mientras trabajo (pantalla partida)
 3. Señalar con @
-4. Controlarme (Escape, rebobinar, modos, /clear y /compact)
+4. Controlarme (la tecla ESC, rebobinar, modos, /clear y /compact)
 5. Darme memoria (CLAUDE.md)
 
 **Tarea para la semana:** abrime en una carpeta TUYA con archivos reales y pedime que te la explique. Y escribí tu CLAUDE.md global.
