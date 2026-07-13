@@ -1,0 +1,11 @@
+# Salidas de trabajo del alumno: cada quien genera las suyas
+ordenado/*
+!ordenado/.gitkeep
+analisis/*
+!analisis/.gitkeep
+revisiones/*
+!revisiones/.gitkeep
+
+.DS_Store
+node_modules
+*.log
